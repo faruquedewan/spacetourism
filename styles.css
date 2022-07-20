@@ -1,0 +1,83 @@
+body{
+  background-image: url(assets/home/background-home-desktop.jpg);
+  color: #ffffff;
+  margin: 0;
+  font-family: 'Abel', sans-serif;
+}
+hr{
+  display: inline-block;
+  width: 75%;
+  border-color: #484848;
+  border-style: solid;
+  margin: auto auto 23px 50px;;
+}
+h1{
+  letter-spacing: 20px;
+  margin: 0 auto;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 8rem;
+  font-family: 'EB Garamond', serif;
+}
+h3{
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-family: 'Dosis', sans-serif;
+  margin-bottom: 0;
+}
+p{
+  line-height: 1.9;
+}
+.explore{
+  background-color: #fff;
+  border-radius: 100px;
+  padding: 100px;
+  right: 150px;
+  bottom: 90px;
+  position: absolute;
+}
+.explore_text{
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+  color: black;
+  position: absolute;
+  right: 180px;
+  bottom: 130px;
+}
+.navi_bar0{
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 40px;
+}
+.navi_bar{
+  position: absolute;
+  top: 30px;
+  width: 55%;
+  right: 0;
+  backdrop-filter: blur(50px);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.navi_bar a{
+  font-family: 'Abel', sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 70px;
+  padding-top: 30px;
+  padding-bottom: 26px;
+  border-bottom: 4px solid transparent;
+}
+.navi_bar a:hover{
+  border-bottom: 4px solid white;
+}
+.navi_bar a.active{
+  border-bottom: 4px solid white;
+}
+.text{
+  position: absolute;
+  padding-bottom: 100px;
+  width: 33%;
+  left: 150px;
+  bottom: 0;
+}
